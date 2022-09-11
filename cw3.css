@@ -25,42 +25,39 @@ body{
     background-color: yellow;
     color: black;
   }
-  .first_div {
-    width: 130px;
+  .con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
     height: 200px;
+  }
+  .con> .first_div {
     background-color: yellow;
     border: 2px solid;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin: 10px;
+    width: 100px;
   }
-  .second_div {
-    width: 130px;
-    height: 200px;
+  .con > .second_div {
     background-color: yellow;
     border: 2px solid;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 2%;
+    margin: 10px;
   }
-  .third_div {
-    width: 130px;
-    height: 200px;
+  .con > .third_div {
     background-color: yellow;
     border: 2px solid;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    width: 100px;
   }
-  .child_third {
-    width: auto;
-    height: 65px;
+  .con > .third_div > ul {
     background-color: blue;
     border: 4px solid red;
-    font-weight: bolder;
-  }
-  
-  .child_third > ul{
-    text-align: center;
-    list-style: inside;
-    margin-right: 35%;
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 0%;
+    align-items: center;
   }
