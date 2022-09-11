@@ -2,10 +2,10 @@ body{
   background-color:steelblue;
 }
 .container {
-    border-top: 5px dotted red;
-    border-left: 5px dotted purple;
-    border-right: 5px dotted green;
-    border-bottom: 5px dotted blue;
+    border-top: 5px dashed red;
+    border-left: 5px dashed purple;
+    border-right: 5px dashed green;
+    border-bottom: 5px dashed blue;
     width: 470px;
     height: 148px;
     margin: 0%;
