@@ -5,7 +5,7 @@ body{
 font-size: 48px;
 color: red;
 background-color: yellow;
-margin-right: 700px;
+display: inline;
 }
 .the_smaller {
 font-size: 15px;
